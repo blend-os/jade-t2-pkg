@@ -1,4 +1,5 @@
-# Maintainer: Crystal Linux Distribution Team <distribution@lists.getcryst.al>
+# Maintainer: Rudra Saraswat <rs2009@ubuntu.com>
+# Original maintainer: Crystal Linux Distribution Team <distribution@lists.getcryst.al>
 
 pkgname=jade
 _pkgname=blend-jade
