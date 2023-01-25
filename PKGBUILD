@@ -2,16 +2,16 @@
 # Original maintainer: Crystal Linux Distribution Team <distribution@lists.getcryst.al>
 
 pkgname=jade
-_pkgname=blend-jade
+_pkgname=crystal-jade
 pkgver=1.2.9
 pkgrel=1
-pkgdesc="Scriptable backend & TUI Installer for Crystal Linux"
+pkgdesc="Scriptable backend & TUI Installer for blendOS"
 arch=('x86_64' 'aarch64')
-url="https://github.com/blend-os/jade"
+url="https://git.getcryst.al/rs2009/jade"
 license=('GPL3')
 depends=('parted' 'arch-install-scripts')
 makedepends=('cargo')
-source=("git+https://github.com/blend-os/jade.git")
+source=("git+${url}.git")
 sha256sums=('SKIP')
 
 prepare() {
